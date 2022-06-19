@@ -1,0 +1,143 @@
+.nav {
+    display: flex;
+    height: 80px;
+    position: relative;
+}
+
+.text {
+    display: flex;
+    position: absolute;
+    right: 10px;
+}
+
+.text img {
+    width: 200px;
+}
+
+.text>ul {
+    display: flex;
+}
+
+.text>ul>li {
+    margin: 0 20px;
+}
+
+.text>ul>li>ul {
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+.text>ul>li:hover ul {
+    display: block;
+    background-color: #EEEEEE;
+}
+
+.mainpic {
+    width: 100%;
+}
+
+.maintext {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 119, 8);
+}
+
+.mainlist {
+    position: relative;
+    width: 60%;
+    margin: auto;
+}
+
+.listtitle-A {
+    position: absolute;
+    left: 10px;
+}
+
+.listtitle-B {
+    position: absolute;
+    right: 10px;
+}
+
+.mainlist p {
+    padding: 20px 0;
+    margin: 5px;
+    border-bottom: 1px solid black;
+}
+
+.card {
+    /* width: 100%; */
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+}
+
+.card>.pic {
+    width: 100%;
+    margin: 5%;
+}
+
+.card img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+.foot {
+    height: 300px;
+    background-color: #dddddd;
+}
+
+.cards {
+    position: relative;
+    width: 100%;
+}
+
+.cards .A {
+    float: left;
+    padding: 1.5px;
+    position: relative;
+    width: 49%;
+}
+
+.cards .B {
+    float: left;
+    padding: 1.5px;
+    position: relative;
+    width: 24%;
+    clear: both;
+}
+
+.cards .C {
+    float: inline;
+    padding: 1.5px;
+    position: relative;
+    width: 24%;
+}
+
+.cards .D {
+    float: left;
+    padding: 1.5px;
+    position: relative;
+    width: 24%;
+}
+
+.cards .E {
+    padding: 1.5px;
+    position: relative;
+    width: 24%;
+}
+
+.cards .F {
+    padding: 1.5px;
+    position: relative;
+    width: 49%;
+}
+
+.cards>img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+.cards>img:hover {
+    filter: grayscale(100%);
+}
